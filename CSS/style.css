@@ -1,0 +1,68 @@
+header, footer{
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+body{
+    background-color: aliceblue;
+    color: black;
+}
+
+
+footer{
+    display: flex;
+    
+}
+
+.logo {
+    color: aliceblue;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+}
+
+.listaMenu {
+    margin: 0 10px;
+    
+}
+
+
+a {
+    text-decoration: none; 
+    
+}
+
+img{
+    display: block; 
+    margin: auto; 
+    max-width: 30%; 
+    height: auto;
+}
+
+figcaption{
+    display: block;
+     margin: auto; 
+     max-width: 30%; 
+     height: auto;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
